@@ -5,15 +5,13 @@ body{
     background: radial-gradient(#7AA39E,#C3E0DD,#7AA3A0) ;
     margin: 30px;
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
-
-    
+    font-size: 20px;
 }
+
 main{
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 50px;
-
 }
 
 div{
@@ -25,8 +23,6 @@ div{
 h1, h2, h3, h4 {
     text-align: center;
 }
-
-
 
 figure{
    display:flex;

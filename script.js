@@ -1,6 +1,5 @@
 
-    console.log('Página de cadastro')
-
+console.log('Página de cadastro')
 
 function validarFormulario() {
     const nome = document.getElementById("nome").value;
