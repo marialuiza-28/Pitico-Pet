@@ -1,6 +1,12 @@
 
 @charset "UTF-8";
 
+@media (max-width:400){
+figure{
+    display: none;
+}
+}
+
 body{
     background: radial-gradient(#7AA39E,#C3E0DD,#7AA3A0) ;
     margin: 30px;

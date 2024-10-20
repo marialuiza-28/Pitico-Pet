@@ -10,6 +10,12 @@
 </head>
 <body>     
 
+    <script>
+        window.alert('Seus dados serão coletados e armazenados em nosso sistema.')
+        console.log('Página de cadastro')
+    </script>
+        
+
     <h2>Insira abaixo seus dados e receba os diversos benefícios de ter um cadastro em nossa loja!</h2>
 
 <form id="meuform">
@@ -104,22 +110,6 @@
 </div>
 
 </form>
-
-<script>
-
-console.log('Página de cadastro')
-
-function validarFormulario() {
-    const nome = document.getElementById("nome").value;
-    if (nome === "") {
-        alert("Por favor, preencha o nome.");
-        return false;
-    }
-    return true;
-}
-
-
-</script>
 
 </body>
 </html>
